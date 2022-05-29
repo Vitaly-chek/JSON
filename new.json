@@ -1,0 +1,16 @@
+{
+	"about_me":
+		{
+		"name" : "Vitaly",
+		"lastname" : "Krivoruchek",
+		"age" : 23,
+		"pats" : 3
+		},
+
+	"work":
+		{
+		"position" : "QA Engineer",
+		"salary" : 600,
+		"currency" : "USD"
+		}		
+}	
