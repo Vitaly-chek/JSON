@@ -1,0 +1,24 @@
+{
+	"preference":
+		{
+			"favorite_movie": "Волк с Уолл-стрит",
+			"favorite_series": "Сотня",
+			"Favorite_food": 
+				[
+					"Окрошка",
+					"Жареная картошка"
+				],
+	
+			"favorite_season": 
+				[
+					"Лето",
+					"Осень"
+				],
+
+			"favorite_countries":
+				[
+					"Швейцария",
+					"Канада"
+				]
+		}
+}
