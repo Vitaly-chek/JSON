@@ -49,7 +49,7 @@
         {
             "favorite_movie" : "Волк с Уолл-стрит",
             "favorite_series" : "Сотня",
-            "Favorite_food":
+            "favorite_food":
                 [
                     "Окрошка",
                     "Жареная картошка"
