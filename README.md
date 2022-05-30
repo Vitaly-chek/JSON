@@ -22,7 +22,7 @@
 		    "name" : "Vitaly",
 		    "lastname" : "Krivoruchek",
 		    "age" : 23,
-		    "pats" : 3
+		    "pets" : 3
 		},
 
 	"work":
