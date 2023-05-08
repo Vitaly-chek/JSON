@@ -1,19 +1,19 @@
 # HW_2 : JSON
 
-1. Создать внешний репозиторий c названием JSON;
+1. Create an external repository called JSON;
 
-2. Клонировать репозиторий JSON на локальный компьютер - `git clone URL`;
+2. Clone the JSON repository to the local computer - `git clone URL`;
  
-3. Внутри локального JSON создать файл “new.json” - `touch new.json`;
+3. Inside the local JSON create a file “new.json” - `touch new.json`;
  
-4. Добавить файл под гит - `git add .`; 
+4. Add a file under the git - `git add new.json`; 
  
-5. Закоммитить файл - `git commit -m "new file"`;
+5. Commit the file - `git commit -m "new file"`;
  
-6. Отправить файл на внешний GitHub репозиторий `git push`;
+6. Push the file to an external GitHub repository - `git push`;
  
-7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, 
-    количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON:
+7. Edit the content of the “new.json” file - write information about yourself (name, age, number of pets, 
+    future desired salary). Write everything in JSON format:
 
 ```
 {
@@ -37,102 +37,103 @@
 }	
 ```
 
-8. Отправить изменения на внешний репозиторий - `git commit -am "updated file" / git push`;
+8. Push changes to an external repository - `git commit -am "updated file" / git push`;
  
-9. Создать файл preferences.json - `touch preferences.jsone`;
+9. Create file preferences.json - `touch preferences.jsone`;
  
-10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON:
+10. In the preferences.json file, add information about your preferences (Favorite movie, favorite series, 
+    favorite food, favorite season, side you would like to visit) in JSON format:
 
 ```
 {
     "preference":
         {
-            "favorite_movie" : "Волк с Уолл-стрит",
-            "favorite_series" : "Сотня",
+            "favorite_movie" : "The Wolf of Wall Street",
+            "favorite_series" : "The 100",
             "favorite_food":
                 [
-                    "Окрошка",
-                    "Жареная картошка"
+                    "Okroshka",
+                    "Fried potatoes"
                 ],
 
             "favorite_season":
                 [
-                    "Лето",
-                    "Осень"
+                    "Summer",
+                    "Autumn"
                 ],
 
             "favorite_countries":
                 [
-                    "Швейцария",
-                    "Канада"
+                    "Switzerland",
+                    "Canada"
                 ]
         }
 }
 ```
  
-11. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON - `touch skils.json`:
+11. Create a skills.json file, add information about the skills that will be studied in the course in JSON format - `touch skils.json`:
 
 ```
 {
     "skills":
         {
-            "1" : "Базовая теория",
-            "2" : "Что такое клиент-серверная архитектура",
-            "3" : "HTTP Методы запросов на сервер",
-            "4" : "Коды ответов HTTP сервера",
-            "5" : "Структуры HTTP запросов и ответов",
-            "6" : "Что такое JSON, XML. Их структура",
-            "7" : "Тестировнаие API через Postman (JS, автотесты API)",
-            "8" : "Снятие и чтение логов с внешнего сервера",
-            "9" : "Снифинг http web трафика через Charles и Fiddler",
-            "10" : "Dev Tools веб браузеров (Google Chrome, FireFox)",
-            "11" : "VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)",
-            "12" : "Мобильное тестирование",
-            "13" : "Особенность iOS, Android, гайдлайны",
-            "14" : "Сборка iOS приложений на XCode",
-            "15" : "Сборка Android приложений на Android Studio",
-            "16" : "ADB (управление андройд девайсами)",
-            "17" : "Настройка прокси и vpn на iOS и Android",
-            "18" : "Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android",
-            "19" : "Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)",
-            "20" : "Основы bash скриптинг, автоматизация рутинных задач на сервере",
-            "21" : "Доступ к удалённым серверам",
-            "22" : "Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
-            "23" : "База данных Postgres (установка, настройка и использование)",
-            "24" : "Нереляционная база данных Redis (установка, настройка и использование)",
-            "25" : "Нагрузочное тестирование в Jmeter",
-            "26" : "Методология разработки Scrum"
+            "1" : "Basic theory",
+            "2" : "What is client-server architecture",
+            "3" : "HTTP Server request methods",
+            "4" : "HTTP server response codes",
+            "5" : "HTTP request and response structures",
+            "6" : "What is JSON, XML. Their structure",
+            "7" : "API testing via Postman (JS, API autotests)",
+            "8" : "Removing and reading logs from an external server",
+            "9" : "Sniffing http web traffic via Charles and Fiddler",
+            "10" : "Dev Tools of web browsers (Google Chrome, FireFox)",
+            "11" : "VPN. (How it works, why you need it, how to use it, tool options)",
+            "12" : "Mobile testing",
+            "13" : "iOS feature, android, guidelines",
+            "14" : "Building iOS apps with XCode",
+            "15" : "Building Android apps with Android Studio",
+            "16" : "ADB (android device management)",
+            "17" : "Proxy and vpn setup on iOS and Android",
+            "18" : "Interception (sniffing) mobile traffic via Charles and Fiddler on iOS and Android",
+            "19" : "Linux command line (terminal) (copy, create, view, move files on non-GUI servers)",
+            "20" : "Basic bash scripting, automation of routine tasks on the server",
+            "21" : "Access to remote servers",
+            "22" : "SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
+            "23" : "Postgres database (installation, configuration and use)",
+            "24" : "Redis non-relational database (installation, configuration and use)",
+            "25" : "Load testing in Jmeter",
+            "26" : "Scrum development methodology"
         }
 }
 ```
 
-12. Отправить сразу 2 файла на внешний репозиторий - `git add . / git commit -am "new 2 files" / git push`;
+12. Send 2 files at once to an external repository - `git add . / git commit -am "new 2 files" / git push`;
  
-13. На веб интерфейсе создать файл bug_report.json;
+13. On the web interface, create a bug_report.json file;
  
-14. Сделать Commit changes (сохранить) изменения на веб интерфейсе;
+14. Make Commit changes (save) changes on the web interface;
  
-15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON:
+15. Modify the bug_report.json file on the web interface, add a bug report in JSON format:
 
 ```
 {
 	"bug_report":
 		{
-			"project" : "Заметки",
+			"project" : "Notes",
 			"version" : "1.3",
 			"id" : "№5",
-			"summary" : "При клике на кнопку фильтрации 'A to Z' на главной странице приложения происходит хаотичная фильтрация списков",
+			"summary" : "When clicking on the 'A to Z' filtering button on the main page of the application, chaotic filtering of lists occurs",
 			"step_to_reproduce":
 				[
-					"1. Открыть приложение 'Заметки'",
-					"2. Создать 15 списков, которые будут начинаться соответственно (A, a, D, 3, :, U, u, Ш, ш, 5, @, Ї, ї, -, d)",
-					"3. На главной странице приложения ликнуть на кнопку фильтрации 'A to Z'"
+					"1. Open the 'Notes' app",
+					"2. Create 15 lists that will start accordingly (A, a, D, 3, :, U, u, Ш, ш, 5, @, Ї, ї, -, d)",
+					"3. On the main page of the application, click on the filter button 'A to Z'"
 				],
-			"actual_result" : "Списки сортируются хаотично",
+			"actual_result" : "Lists are sorted randomly",
 			"expected_result": 
 				[
-					"Списки сортируются по порядку: символы, цифры, буквы латиницы (сначала верхний регистр), буквы кириллицы (сначала верхний регистр)",
-					"Правильный порядок : (-, :, @, 3, 5, А, а, D, d, U, u, Ї, ї, Ш, ш)"
+					"The lists are sorted in order: symbols, numbers, Latin letters (upper case first), Cyrillic letters (upper case first)",
+					"Correct order : (-, :, @, 3, 5, А, а, D, d, U, u, Ї, ї, Ш, ш)"
 				],
 			"severity" : "Minor",
 			"priority" : "Normal",
@@ -144,6 +145,6 @@
 }
 ```
  
-16. Сделать Commit changes (сохранить) изменения на веб интерфейсе;
+16. Make Commit changes (save) changes on the web interface;
  
-27. Синхронизировать внешний и локальный репозиторий JSON - `git pull`.
+17. Synchronize external and local JSON repository - `git pull`.

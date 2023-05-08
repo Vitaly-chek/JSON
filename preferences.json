@@ -1,24 +1,24 @@
 {
-	"preference":
-		{
-			"favorite_movie" : "Волк с Уолл-стрит",
-			"favorite_series" : "Сотня",
-			"favorite_food": 
-				[
-					"Окрошка",
-					"Жареная картошка"
-				],
-	
-			"favorite_season": 
-				[
-					"Лето",
-					"Осень"
-				],
+  "preference":
+    {
+      "favorite_movie" : "The Wolf of Wall Street",
+      "favorite_series" : "The 100",
+      "favorite_food":
+        [
+          "Okroshka",
+          "Fried potatoes"
+        ],
 
-			"favorite_countries":
-				[
-					"Швейцария",
-					"Канада"
-				]
-		}
+      "favorite_season":
+        [
+          "Summer",
+          "Autumn"
+        ],
+
+      "favorite_countries":
+        [
+          "Switzerland",
+          "Canada"
+        ]
+    }
 }
